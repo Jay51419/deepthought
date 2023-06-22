@@ -16,35 +16,35 @@ export default function DTHeader() {
           <ul className="hidden md:flex space-x-2">
             <li>
               <Link href={""}>
-                <div className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-400">
+                <div className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-400 transition-colors duration-200">
                   <HouseFill size={24} />
                 </div>
               </Link>
             </li>
             <li>
               <Link href={""}>
-                <div className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-400">
+                <div className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-400 transition-colors duration-200">
                   <BinocularsFill size={24} />
                 </div>
               </Link>
             </li>
             <li>
               <Link href={""}>
-                <div className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-400">
+                <div className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-400 transition-colors duration-200">
                   <Tools size={24} />
                 </div>
               </Link>
             </li>
             <li>
               <Link href={""}>
-                <div className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-400">
+                <div className="p-2 bg-blue-500 text-white rounded-full hover:bg-blue-400 transition-colors duration-200">
                   <BellFill size={24} />
                 </div>
               </Link>
             </li>
           </ul>
           <button className="p-2 rounded-full">
-            <ThreeDotsVertical className="text-blue-500 hover:text-blue-400" size={24}  />
+            <ThreeDotsVertical className="text-blue-500 hover:text-blue-400 transition-colors duration-200" size={24}  />
           </button>
         </nav>
       </div>
